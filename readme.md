@@ -28,6 +28,6 @@ Tags
 
 Team Shorties
 
-Hui Ting Ko 43762378
-Yangyang Xu 43442401
-Siv I Choun 43681974
+- Hui Ting Ko 43762378
+- Yangyang Xu 43442401
+- Siv I Choun 43681974
