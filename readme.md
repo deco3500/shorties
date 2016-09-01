@@ -13,7 +13,7 @@ Concept
 - displaying 'News aound us', 'Thoughts' and 'Past Moments'
 - a mobile app using a QR code which recoginses registered users and the board
 - selecting which section to post on
-- only 80 characters including spaces
+- only 80 characters including spaces when messaging
 - bubble messages which appears for 5 seconds
 - help reduce mundane daily activities
 
