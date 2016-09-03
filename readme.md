@@ -23,13 +23,9 @@ Tags
 - #trending
 - #news
 - #strangers
-- #pastmemories
+- #historyactivities
  
 
 Team Shorties (because we're short)
 
-- Hui Ting Ko 43762378
-- Yangyang Xu 43442401
-- Siv I Choun 43681974
-
-##[Proposal link coming soon!](#)
+##[View proposal link!](https://drive.google.com/open?id=0B4xAEojb5POBbDdxXzVFYzd3ZGM)
