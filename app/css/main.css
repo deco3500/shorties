@@ -1,0 +1,28 @@
+#get_location{
+	color: #2baae1;
+	font-size: x-large;
+}
+
+#bt_news, #bt_yourThought{
+	background:no-repeat url('../img/button.png');
+	background-position: center center;
+	background-size: cover;
+	width: 80%;
+	height: 100px;
+	font-size: xx-large;
+	text-align: center;
+	border: none;
+	border-radius: 15px;
+	margin-top: 10%;
+	color: white;
+}
+
+#bt_qr{
+	width: 100px;
+	height: 100px;
+	font-size: xx-large;
+	text-align: center;
+	border-radius: 15px;
+	margin-top: 5%;
+	background: white;
+}
