@@ -1,21 +1,21 @@
-@font-face {
+/*@font-face {
     font-family: copperplate;
     src: url('font/copperplate/copperplate.ttf');
-}
+}*/
 
 body html {
-	font-family: copperplate;
+	font-family: 'Roboto' sans-serif;
 }
 
 #get_location{
 	color: #2baae1;
 	font-size: 30pt;
 	font-weight: 600;
-	font-family: copperplate;
+	font-family: 'Roboto';
 }
 
 .btn {
-	font-family: copperplate;
+	font-family: 'Roboto';
 	font-size: 20pt;
 	font-weight: 400;
 }

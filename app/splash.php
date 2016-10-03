@@ -17,6 +17,7 @@
     <!-- splash-->
     <link href="css/splash.css" rel="stylesheet">
     <script src="js/menu.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
   </head>
   <body onload="setTimeout(function() {}, 5);">

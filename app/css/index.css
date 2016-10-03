@@ -1,8 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,700);
+/*@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,700);
 @font-face {
     font-family: copperplate;
     src: url('font/copperplate/copperplate.ttf');
-}
+}*/
+
 * {
   box-sizing: border-box; 
   }
@@ -12,7 +13,7 @@ html, body {
   margin: 0;
   height: 100%;
   width: 100%;
-  font-family: 'Helvetica', 'Verdana', sans-serif;
+  font-family: 'Roboto' sans-serif;
   font-weight: 400;
   font-display: optional;
   color: #444;
@@ -92,7 +93,7 @@ body {
 .header__title {
   text-align: center;
   margin-top: -10pt;
-  font-family:copperplate;
+  font-family: 'Roboto';
   font-size: 40pt;
   font-weight: 400;
   -webkit-box-flex: 1;

@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="img/logo.png">
-	<title>Notice Me</title>
+	<title>Notice Me!</title>
 	 <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
@@ -19,7 +19,9 @@
     <script src="js/menu.js"></script>
     <!-- main -->
     <link href="css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
+  
   <body>
 	  <header class="header">
 	    <h1 class="header__title">Notice Me!</h1>

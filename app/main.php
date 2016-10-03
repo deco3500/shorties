@@ -19,7 +19,9 @@
     <script src="js/menu.js"></script>
     <!-- main -->
     <link href="css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
+  
   <body>
   	<div class="jumbotron">
 	<div id="get_location" align="center">Current Location: Toowong</div>
