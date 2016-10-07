@@ -19,8 +19,8 @@ The principle of this idea is similar to Facebook. User only need to do a few cl
 Concept
 
 - interactive board
-- using three sections of the screen
-- displaying 'News aound us', 'Thoughts' and 'Past Moments'
+- using two sections of the screen
+- displaying 'News aound us' + 'RTN'(React To News), 'Thoughts'
 - a mobile app using a QR code which recoginses registered users and the board
 - selecting which section to post on
 - only 80 characters including spaces when messaging
