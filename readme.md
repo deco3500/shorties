@@ -25,7 +25,9 @@ Concept
 - selecting which section to post on
 - only 80 characters including spaces when messaging
 - bubble messages which appears for 5 seconds
-- help reduce mundane daily activities
+- help increasing people interests to news
+- help increasing people interaction with news
+- help reducing mundane daily activities
 
 Tags
 
