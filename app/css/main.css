@@ -7,9 +7,14 @@ body html {
 	font-family: 'Roboto' sans-serif;
 }
 
+.extraInfo{
+	padding-top:1%; 
+	padding-bottom: 1%;
+	background-color: #cbcbcb;
+}
+
 #get_location{
 	color: #2baae1;
-	font-size: 30pt;
 	font-weight: 600;
 	font-family: 'Roboto';
 }
@@ -18,4 +23,20 @@ body html {
 	font-family: 'Roboto';
 	font-size: 20pt;
 	font-weight: 400;
+}
+
+#bt_news,#bt_yourThought,#bt_qr{
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+}
+
+@media(max-width:768px) {
+#bt_news,#bt_yourThought,#bt_qr{
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15%;
+}
 }

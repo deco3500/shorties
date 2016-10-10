@@ -14,24 +14,32 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <!-- index -->
-    <link href="css/index.css" rel="stylesheet">
-    <script src="js/menu.js"></script>
-    <!-- main -->
-    <link href="css/main.css" rel="stylesheet">
+    <!-- splash-->
+    <link href="css/splash.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
   </head>
-  
-  <body>
-	  <header class="header">
-	    <h1 class="header__title">Notice Me!</h1>
+  <body onload="setTimeout(function() {}, 5);">
+
+    <script type="text/javascript">
+
+      window.onload=timeout;
+      function timeout(){
+      window.setTimeout("redirect()",3000)}
+
+      function redirect(){
+      window.location="main.php"
+      return
+      }
+
+    </script>
+
+	  <header class="splash">
+      <h2 class="splash__title1">Welcome</h2>
+      <h2 class="splash__title">to</h2>
+      <h2 class="splash__title">Notice Me!</h2>
 	  </header>
 
-	  <main id="loadPage">
-	    
-	  </main>
-
-    
   </body>
 </html>
 
