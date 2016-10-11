@@ -39,4 +39,17 @@ body html {
 	margin-right: auto;
 	margin-top: 15%;
 }
+
+#alert{
+	position: fixed;
+	top: 10%;
+	left: 50%;
+	text-align: center;
+}
+
+#send_message{
+	position: fixed;
+	bottom: 5%;
+
+}
 }
