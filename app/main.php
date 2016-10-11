@@ -23,15 +23,20 @@
     <!-- main -->
     <link href="css/main.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    
   </head>
   
   <body>
 	  <header class="header">
 	    <h1 class="header__title">Notice Me!</h1>
 	  </header>
-
-	  <main id="loadPage">
-	    
+	  
+	  <main>
+		  <div class="extraInfo">
+		  	<h3 id="get_location" align="center"></h3>
+		  </div>
+		  <div id="loadPage">
+		  </div>
 	  </main>
 
     

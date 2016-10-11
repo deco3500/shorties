@@ -14,6 +14,7 @@ body html {
 }
 
 #get_location{
+	padding-top: 60px;
 	color: #2baae1;
 	font-weight: 600;
 	font-family: 'Roboto';
