@@ -23,11 +23,13 @@
     <!-- main -->
     <link href="css/main.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    
+    <!-- News -->
+    <link href="css/news.css" rel="stylesheet">
   </head>
   
   <body>
 	  <header class="header">
+		<img src="img/back.png" width="40" height="40" alt="Back">
 	    <h1 class="header__title">Notice Me!</h1>
 	  </header>
 	  

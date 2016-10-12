@@ -8,8 +8,8 @@ function getGeoLocation(){
 }
 
 function VerifyLocation(Location,lat,lng){
-	var targetLat;
-	var targetLng;
+	var targetLat = 0;
+	var targetLng = 0;
 	switch (Location){
 		case "Queen Street":
 			targetLat = -27.469366;
@@ -46,11 +46,11 @@ function DisplayLocation(geoLocation){
 	//reverse geolocation
 	$.getJSON(url,function( data ){
 		var getCurrLocation = data.results[0].address_components[1].short_name;
-		if(VerifyLocation(getCurrLocation,lat,lng)<0.99995){
-			 alert("Yes "+VerifyLocation(getCurrLocation,lat,lng));
+		if(VerifyLocation(getCurrLocation,lat,lng)>0.9999){
+			//alert("Yes "+VerifyLocation(getCurrLocation,lat,lng));
 			$("#get_location").html("You are at: " + getCurrLocation);
 		}else{
-			alert("No "+VerifyLocation(getCurrLocation,lat,lng));
+			//alert("No "+VerifyLocation(getCurrLocation,lat,lng));
 			$("#get_location").html("You are out of area");
 		}
 	});	

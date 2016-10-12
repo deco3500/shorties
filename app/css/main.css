@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /*@font-face {
     font-family: copperplate;
     src: url('font/copperplate/copperplate.ttf');
@@ -6,6 +5,10 @@
 
 body html {
 	font-family: 'Roboto' sans-serif;
+}
+
+header img{
+	display:none;
 }
 
 .extraInfo{
@@ -41,49 +44,6 @@ body html {
 	margin-right: auto;
 	margin-top: 15%;
 }
-}
-=======
-/*@font-face {
-    font-family: copperplate;
-    src: url('font/copperplate/copperplate.ttf');
-}*/
-
-body html {
-	font-family: 'Roboto' sans-serif;
-}
-
-.extraInfo{
-	padding-top:1%; 
-	padding-bottom: 1%;
-	background-color: #cbcbcb;
-}
-
-#get_location{
-	color: #2baae1;
-	font-weight: 600;
-	font-family: 'Roboto';
-}
-
-.btn {
-	font-family: 'Roboto';
-	font-size: 20pt;
-	font-weight: 400;
-}
-
-#bt_news,#bt_yourThought,#bt_qr{
-	width: 85%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 5%;
-}
-
-@media(max-width:768px) {
-#bt_news,#bt_yourThought,#bt_qr{
-	width: 85%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 15%;
-}
 
 #alert{
 	position: fixed;
@@ -91,11 +51,4 @@ body html {
 	left: 50%;
 	text-align: center;
 }
-
-#send_message{
-	position: fixed;
-	bottom: 5%;
-
 }
-}
->>>>>>> 2de1aac80e7b8822df413a1d527a33f822604654

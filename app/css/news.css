@@ -1,0 +1,59 @@
+.media{
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	background-color:rgba(255, 255, 255, 0.90);
+}
+
+.MSG_Box{
+	width:100%;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 0;
+	position:fixed;
+}
+
+.poll{
+	margin: 0;
+	background:rgba(255, 255, 255, 0.82);
+}
+
+.poll img{
+	margin-left: 2.5%;
+	width: 10%;
+	cursor: pointer;
+}
+
+.poll img:hover{
+	margin-bottom: 3%;
+	background-color: #ffffff;
+	border-radius: 100%;
+	-webkit-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	transform: scale(1.5);
+	-webkit-transform-origin: top top;
+	-moz-transform-origin: top top;
+	-o-transform-origin: top top;
+	transform-origin: top top;
+	height: auto;
+	cursor: pointer;
+}
+
+.msg{
+	background: rgba(255, 255, 255, 0.85);
+}
+
+
+.msg textarea{
+	width: 80%;
+	resize: none;
+}
+
+#send_message{
+	width: 10%;
+	background-image: url("../img/send.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
