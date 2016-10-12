@@ -11,6 +11,13 @@
 			<img src="img/yas.png" alt="YAS" onmouseover="enlargePoll()"/>
 			<img src="img/wtf.png" alt="WTF" onmouseover="enlargePoll()"/>
 			<img src="img/omg.png" alt="OMG" onmouseover="enlargePoll()"/>
+			<div class="labels">
+				<p>LOL</p>
+				<p>YAS</p>
+				<p>WTF</p>
+				<p>OMG</p>
+			</div>
+
 		</div>
 		<div class="input-group msg">
 			<textarea class="form-control" type="text" maxlength="225"/>
