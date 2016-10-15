@@ -23,12 +23,13 @@
     <!-- News-->
     <link href="css/news.css" rel="stylesheet">
 	<script type="text/javascript" src="js/news.js"></script>
+	<!-- PreLocation-->
+	<link href="css/preLocation.css" rel="stylesheet">
   </head>
   
   <body>
 	  <header>
 		<div class="header">
-			<img src="img/back.png" width="40" height="40" alt="Back">
 		    <p class="header_title">Notice Me!</p>
 		</div>
 	    <div id="extraInfo">

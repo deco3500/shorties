@@ -3,8 +3,16 @@
     src: url('font/copperplate/copperplate.ttf');
 }*/
 
-.header img{
-	display:none;
+.header{
+	text-align: center;
+}
+
+#bt_back{
+	cursor: pointer;
+	height: auto;
+	width: 8%;
+	left: 1%;
+	position: fixed;
 }
 
 .btn {

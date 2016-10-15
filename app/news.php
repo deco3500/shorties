@@ -1,6 +1,8 @@
 <script>
+	if($('#get_location').text() == "You are out of area"){
+		goToPreviousLocation();//main.js
+	}
 	loadNews();
-	
 </script>
 <div class="load_continer">
 	<div id="media">

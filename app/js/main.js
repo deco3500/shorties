@@ -56,18 +56,40 @@ function DisplayLocation(geoLocation){
 	});	
 }
 
+function goToPreviousLocation(){
+	$( "#loadPage" ).load("preLocation.php");
+	$(".header_title").html('<img id="bt_back" src="img/back.png" onclick="ChangeFragment(this)" alt="Back">Previous Location');
+}
+
+function goToViewNews(place){
+	$( "#loadPage" ).load("news_viewonly.php");
+	$(".header_title").html('<img id="bt_back" src="img/back.png" onclick="ChangeFragment(this)" alt="Back">Local News Views Only');
+}
+
 function ChangeFragment(Event){
+	$("#loadPage" ).empty();
 	switch(Event.id){
 		case "bt_news":
 			$("#loadPage" ).load("news.php");
+			$(".header_title").html('<img id="bt_back" src="img/back.png" onclick="ChangeFragment(this)" alt="Back">Local News');
+			$('#bt_back').css('display','block');
 			break;
-		case "bt_yourThoughts":
-			$("#loadPage" ).load("yourThoughts.php");
+		case "bt_yourThought":
+			$("#loadPage" ).load("yourthoughts.php");
+			$(".header_title").html('<img id="bt_back" src="img/back.png" onclick="ChangeFragment(this)" alt="Back">Your Thoughts');
+			$('#bt_back').css('display','block');
 			break;
 		case "bt_qr":
 			$("#loadPage" ).load("qr.php");
+			$(".header_title").html('<img id="bt_back" src="img/back.png" onclick="ChangeFragment(this)" alt="Back">Scan QR Code');
+			$('#bt_back').css('display','block');
+			break;
+		case "bt_back":
+			$( "#loadPage" ).load("homepage.php");
+			$(".header_title").html("Notice Me");
 			break;
 	}
+
 }
 
 $( document ).ready(function() {
