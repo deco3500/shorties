@@ -1,9 +1,125 @@
-.media{
+#media{
 	margin-left: auto;
 	margin-right: auto;
-	width: 100%;
-	background-color: blue;
+	width: 95%;
+	margin-top: -10%;
 }
+
+.news{
+	margin-top: 1%;
+	overflow-y: scroll;
+	height:25em;
+	background-color: rgba(0, 0, 0, 0.87);
+}
+
+news a:hover, a:focus{
+	color: #b8eeff;
+}
+
+.news h2, a{
+	color: white;
+}
+
+.news h2{
+	text-align: center;
+	color: white;
+	font-weight: 400;
+	font-size: 24pt;
+	font-family: 'Roboto';
+}
+
+
+.news p{
+	text-align: center;
+	color: white;
+	font-weight: 400;
+	font-size: 16pt;
+	font-family: 'Roboto';
+}
+
+.comments{
+	height:12em;
+	margin-top: 1%;
+	overflow-y: auto;
+	width: 100%;
+}
+
+.comments ul{
+	width: 100%;
+	list-style:none;	
+}
+
+.comments ul li{
+	margin-left: 40%;
+}
+
+.bubble{
+  text-align: -webkit-center;
+  width: 40%;
+  margin-right: 5%;
+  position:relative;
+  padding:15px;
+  margin:1em 0 3em;
+  border:5px solid #b8eeff;
+  color:#333;
+  background:#fff;
+  /* css3 */
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+}
+
+.bubble.left {
+  margin-left:30px;
+}
+
+.bubble:before {
+  content:"";
+  position:absolute;
+  bottom:-20px; /* value = - border-top-width - border-bottom-width */
+  left:40px; /* controls horizontal position */
+  border-width:20px 20px 0;
+  border-style:solid;
+  border-color:#b8eeff transparent;
+  /* reduce the damage in FF3.0 */
+  display:block;
+  width:0;
+}
+
+/* creates the smaller  triangle */
+.bubble:after {
+  content:"";
+  position:absolute;
+  bottom:-13px; /* value = - border-top-width - border-bottom-width */
+  left:47px; /* value = (:before left) + (:before border-left) - (:after border-left) */
+  border-width:13px 13px 0;
+  border-style:solid;
+  border-color:#fff transparent;
+  /* reduce the damage in FF3.0 */
+  display:block;
+  width:0;
+}
+
+/* Variant : left
+------------------------------------------ */
+/* creates the larger triangle */
+.bubble.left:before {
+  top:10px; /* controls vertical position */
+  bottom:auto;
+  left:-30px; /* value = - border-left-width - border-right-width */
+  border-width:15px 30px 15px 0;
+  border-color:transparent #b8eeff;
+}
+
+/* creates the smaller  triangle */
+.bubble.left:after {
+  top:16px; /* value = (:before top) + (:before border-top) - (:after border-top) */
+  bottom:auto;
+  left:-21px; /* value = - border-left-width - border-right-width */
+  border-width:9px 21px 9px 0;
+  border-color:transparent #fff;
+}
+
 
 .MSG_Box{
 	width:100%;
@@ -34,6 +150,7 @@
 .msg textarea{
 	width: 80%;
 	resize: none;
+	font-family:'Roboto';
 }
 
 #send_message{

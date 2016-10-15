@@ -48,7 +48,7 @@ function DisplayLocation(geoLocation){
 		var getCurrLocation = data.results[0].address_components[1].short_name;
 		if(VerifyLocation(getCurrLocation,lat,lng)>0.9999){
 			//alert("Yes "+VerifyLocation(getCurrLocation,lat,lng));
-			$("#get_location").html("You are at: " + getCurrLocation);
+			$("#get_location").html("Current Location: " + getCurrLocation);
 		}else{
 			//alert("No "+VerifyLocation(getCurrLocation,lat,lng));
 			$("#get_location").html("You are out of area");
@@ -75,7 +75,6 @@ $( document ).ready(function() {
 			Menu
 		*/
 		$( "#loadPage" ).load("homepage.php");
-		
 		
 		/*
 			Location

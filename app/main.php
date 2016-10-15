@@ -22,6 +22,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <!-- News-->
     <link href="css/news.css" rel="stylesheet">
+	<script type="text/javascript" src="js/news.js"></script>
   </head>
   
   <body>

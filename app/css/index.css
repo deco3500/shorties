@@ -23,26 +23,25 @@ body {
   }
 
 header { 
-  height: 20%;
+  height: 10%;
   color: rgba(255, 242, 0, 0.93);
   background:  rgba(90, 90, 92, 0.96);
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 2px 9px 1px rgba(0, 0, 0, 0.12), 0 4px 2px -2px rgba(0, 0, 0, 0.2);
 }
 
 .header{
-	height: 80%;
+	height:65%;
 }
 
 .header_title {
   text-align: center;
   font-family: 'Roboto';
-  padding-top: 5%;
-  font-size: 40pt;
+  font-size:xx-large;
   font-weight: 400; 
 }
 
 #extraInfo{
-	height: 20%;
+	height: 35%;
 	width: 100%;
 	bottom: 0;
 	background-color: #cbcbcb;
@@ -59,7 +58,7 @@ header {
 
 #loadPage{
 	width: 100%;
-	height: 80%;
+	height: 90%;
 }
 
 .load_continer{
@@ -70,7 +69,6 @@ header {
 @media(min-width:768px) {
 	.header_title {
 	  padding-top: 0;
-	  padding-top: 2.5%; 
 	}
 }
 
