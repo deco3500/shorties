@@ -3,25 +3,8 @@
     src: url('font/copperplate/copperplate.ttf');
 }*/
 
-body html {
-	font-family: 'Roboto' sans-serif;
-}
-
-header img{
+.header img{
 	display:none;
-}
-
-.extraInfo{
-	padding-top:1%; 
-	padding-bottom: 1%;
-	background-color: #cbcbcb;
-}
-
-#get_location{
-	padding-top: 60px;
-	color: #2baae1;
-	font-weight: 600;
-	font-family: 'Roboto';
 }
 
 .btn {
@@ -32,23 +15,25 @@ header img{
 
 #bt_news,#bt_yourThought,#bt_qr{
 	width: 85%;
+	margin-bottom: 5%;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 5%;
 }
 
-@media(max-width:768px) {
-#bt_news,#bt_yourThought,#bt_qr{
-	width: 85%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 15%;
+@media(min-width:768px) {
+/*
+	#bt_news,#bt_yourThought,#bt_qr{
+		margin-bottom: 0;
+		margin-bottom: 15%;
+	}
+*/
 }
+@media(min-width:320px) {
+/*
+	#bt_news,#bt_yourThought,#bt_qr{
+		margin-bottom: 0;
+		margin-bottom: 20%;
+	}
+*/
 
-#alert{
-	position: fixed;
-	top: 10%;
-	left: 50%;
-	text-align: center;
-}
 }

@@ -30,8 +30,6 @@ body {
       -ms-flex: 1;
           flex: 1;
   overflow-x: hidden;
-  overflow-y: auto;
-  -webkit-overflow-scrolling: touch; 
   background-image: url('../img/splash.png');
   background-position: center center;
   background-attachment: fixed;

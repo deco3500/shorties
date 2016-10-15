@@ -8,9 +8,6 @@
     <meta name="author" content="">
     <link rel="icon" href="img/logo.png">
 	<title>Notice Me!</title>
-	<!-- ReactJS -->
-	<script src="https://unpkg.com/react@15.3.2/dist/react.js"></script>
-	<script src="https://unpkg.com/react-dom@15.3.2/dist/react-dom.js"></script>
 	<!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
@@ -28,18 +25,18 @@
   </head>
   
   <body>
-	  <header class="header">
-		<img src="img/back.png" width="40" height="40" alt="Back">
-	    <h1 class="header__title">Notice Me!</h1>
+	  <header>
+		<div class="header">
+			<img src="img/back.png" width="40" height="40" alt="Back">
+		    <p class="header_title">Notice Me!</p>
+		</div>
+	    <div id="extraInfo">
+			<p id="get_location"></p>
+	  	</div>
 	  </header>
-	  
-	  <main>
-		  <div class="extraInfo">
-		  	<h3 id="get_location" align="center"></h3>
-		  </div>
-		  <div id="loadPage">
-		  </div>
-    </main>
+	  <main id="loadPage">
+		  
+      </main>
 
 
 
