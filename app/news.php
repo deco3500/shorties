@@ -6,11 +6,9 @@
 </script>
 <div class="load_continer">
 	<div id="media">
-		<div class="news">
-		</div>
+		<div class="news"></div>
 		<div class="comments">
-			<ul class="msgList">
-			</ul>
+			<ul class="msgList"></ul>
 		</div>
 	</div>
 	<div class="MSG_Box">

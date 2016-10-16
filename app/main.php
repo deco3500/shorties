@@ -25,6 +25,8 @@
 	<script type="text/javascript" src="js/news.js"></script>
 	<!-- PreLocation-->
 	<link href="css/preLocation.css" rel="stylesheet">
+  <!-- yourthoughts -->
+  <link href="css/yourthoughts.css" rel="stylesheet">
   </head>
   
   <body>

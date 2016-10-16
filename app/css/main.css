@@ -45,3 +45,20 @@
 */
 
 }
+
+/*to fix later - position of the camera/canvas/button*/
+.load_continer {
+	text-align: center;
+}
+
+#snap {
+	margin-bottom: 5%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#canvas {
+	margin-bottom: 5%;
+	margin-left: auto;
+	margin-right: auto;
+}
