@@ -29,10 +29,12 @@ Concept
 - help increasing people interaction with news
 - help reducing mundane daily activities 
 
-Team Shorties
-member:
+Team Shorties members:
+
 Hui Ting Ko
+
 Yangyang Xu
+
 Siv I Choun
 
 
