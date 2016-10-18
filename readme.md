@@ -2,7 +2,7 @@
 
 ##Idea
 
-Introduction
+Problem space
 
 The product is a hybrid of current news, thoughts alongside with archived news, which is then displayed on an interative board using a mobile app. The project is to make a mundane day exciting where people can interact with other people whom which they've never met before. This will also help with socialising with other people or even just to pass the day.
 
@@ -27,17 +27,13 @@ Concept
 - bubble messages which appears for 5 seconds
 - help increasing people interests to news
 - help increasing people interaction with news
-- help reducing mundane daily activities
+- help reducing mundane daily activities 
 
-Tags
+Team Shorties
+member:
+Hui Ting Ko
+Yangyang Xu
+Siv I Choun
 
-- #socialise
-- #trending
-- #news
-- #strangers
-- #historyactivities
- 
-
-Team Shorties (because we're short)
 
 ##[View proposal link!](https://drive.google.com/open?id=0B4xAEojb5POBbDdxXzVFYzd3ZGM)
