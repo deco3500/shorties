@@ -1,0 +1,130 @@
+/*@font-face {
+    font-family: 'Roboto', sans-serif;
+    /*src: url('font/copperplate/copperplate.ttf');
+}
+/* CSS document 
+}*/
+* {
+  box-sizing: border-box; 
+  }
+
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-display: optional;
+  color: #444;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
+  }
+
+html {
+  overflow: hidden; 
+}
+
+body {
+	font: 20px 'Roboto';
+    line-height: 1.8;
+    color: #FF918E;
+    -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch; 
+  /*background-image: url('../img/background.png');*/
+  background-color: #FFFFFF;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-align-content: stretch;
+      -ms-flex-line-pack: stretch;
+          align-content: stretch;
+  }
+
+  p {font-size: 20px;}
+  .margin {margin-bottom: 45px;}
+
+  h6 {
+  	font-weight: bolder;
+  	font-size: 20px;
+  }
+
+/*footer*/
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 10px;
+  }
+
+.container {
+	padding: 10px;
+	color: #FF918E;
+}
+
+.container_title {
+	text-align: center;
+	color: #FF918E;
+	font: 80px 'Roboto';
+	font-weight: bolder;
+	font-size: 
+
+}
+
+.emoji {
+	padding-top: 190px;
+
+}
+
+#rotating-item-wrapper {
+	position: relative;
+	width: 480px;
+	height: 347px;
+}
+.rotating-item {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+/*.FixedHeightContainer
+{
+  float:right;
+  height: 250px;
+  width:250px; 
+  padding:3px; 
+    background:#f00;
+}
+.content
+{
+  height:424px;
+   overflow:auto;
+    background:#fff;
+}*/
