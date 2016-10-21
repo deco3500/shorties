@@ -103,9 +103,16 @@ body {
 
 #rotating-item-wrapper {
 	position: relative;
-	width: 480px;
-	height: 347px;
+	width: 100%;
+	height:100%;
 }
+
+#rotating-item-wrapper img{
+	text-align: center;
+	width: 75%;
+	height:auto;
+}
+
 .rotating-item {
 	display: none;
 	position: absolute;

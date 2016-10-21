@@ -4,6 +4,8 @@ $(window).load(function() {	//start after HTML, images have loaded
 	{
 		init: function()
 		{
+			//Initial News
+			loadNews();
 			//initial fade-in time (in milliseconds)
 			var initialFadeIn = 1000;
 			
@@ -14,25 +16,25 @@ $(window).load(function() {	//start after HTML, images have loaded
 			var fadeTime = 2500;
 			
 			//count number of items
-			var numberOfItems = $('.rotating-item').length;
+			//var numberOfItems = $('.rotating-item').length;
 
 			//set current item
-			var currentItem = 0;
+			//var currentItem = 0;
 
 			//show first item
-			$('.rotating-item').eq(currentItem).fadeIn(initialFadeIn);
+			//$('.rotating-item').eq(currentItem).fadeIn(initialFadeIn);
 
 			//loop through the items		
 			var infiniteLoop = setInterval(function(){
-				$('.rotating-item').eq(currentItem).fadeOut(fadeTime);
+				/*$('.rotating-item').eq(currentItem).fadeOut(fadeTime);
 
 				if(currentItem == numberOfItems -1){
 					currentItem = 0;
 				}else{
 					currentItem++;
 				}
-				$('.rotating-item').eq(currentItem).fadeIn(fadeTime);
-
+				$('.rotating-item').eq(currentItem).fadeIn(fadeTime);*/
+				loadNews();
 			}, itemInterval);	
 		}	
 	};

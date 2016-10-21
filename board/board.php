@@ -17,9 +17,11 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- board -->
     <link href="css/style.css" rel="stylesheet">
-    <script src="js/infinite-rotator.js"></script>
+    <!--<script src="js/infinite-rotator.js"></script>-->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
+	<!-- LoadNews -->
+	<script src="js/infinite-rotator.js"></script>
+	<script src="js/newsHelper.js"></script>
   </head>
 
 <body>
@@ -35,7 +37,7 @@ var myVar = setInterval(myTimer, 1000);
 
 function myTimer() {
     var d = new Date();
-    document.getElementById("timer").innerHTML = d.toLocaleTimeString();
+    document.getElementById("timer").innerHTML = d.toLocaleTimeString();  
 }
 </script>
 
@@ -52,11 +54,14 @@ function myTimer() {
 
       <h1>News</h1>
       <br>
+      
       <div id="rotating-item-wrapper">
+	      <!--
         <img src="img/image1.jpg"  class="rotating-item"/>
         <img src="img/image2.jpg" class="rotating-item"/>
         <img src="img/image3.jpg" class="rotating-item"/>
-        <br>
+        <br>-->
+        
       </div>
 
       <!--<img src="img/image1.jpg" class="img-rounded" alt="snake"/>
