@@ -53,18 +53,25 @@ function updateComments(){
     var msgList = msg.split('[###]');
     var content = msgList[msgList.length-1];
     switch(content){
-		case "lol":
-			content = "<img src='img/lol.png' width='40' height='40' alt='LOL'>";
+		case "sad":
+			content = "<img src='img/sad.png' width='40' height='40' alt='SAD'>";
 			break;
-		case "yas":
-			content = "<img src='img/yas.png' width='40' height='40' alt='YAS'>";
+		case "smile":
+			content = "<img src='img/smile.png' width='40' height='40' alt='SMILE'>";
 			break;
-		case "wtf":
-			content = "<img src='img/wtf.png' width='40' height='40' alt='WTF'>";
+		case "joy":
+			content = "<img src='img/joy.png' width='40' height='40' alt='JOY'>";
 			break;
-		case "omg":
-			content = "<img src='img/omg.png' width='40' height='40' alt='OMG'>";
+		case "angry":
+			content = "<img src='img/angry.png' width='40' height='40' alt='ANGRY'>";
 			break;
+		case "heart":
+			content = "<img src='img/heart.png' width='40' height='40' alt='HEART'>";
+			break;
+		case "crying":
+			content = "<img src='img/crying.png' width='40' height='40' alt='CRYING'>";
+			break;
+
 	}
 	var currm = "<li class='bubble'>"+content+"</li>";
     $('.msgList').append(currm);

@@ -31,14 +31,18 @@
 	<div class="MSG_Box">
 		<div class="poll form-group hvr-hang">
 				
-			<img src="img/lol.png" alt="LOL" height="40" width="40" onclick="sendEmoji('lol')"/>
-			<span class="label label-default" >LOL</span>
-			<img src="img/yas.png" alt="YAS" height="40" width="40" onclick="sendEmoji('yas')"/>
-			<span class="label label-default" >YAS</span>
-			<img src="img/wtf.png" alt="WTF" height="40" width="40" onclick="sendEmoji('wtf')"/>
-			<span class="label label-default" >WTF</span>
-			<img src="img/omg.png" alt="OMG" height="40" width="40" onclick="sendEmoji('omg')"/>
-			<span class="label label-default" >OMG</span>				
+			<img src="img/sad.png" alt="SAD" height="40" width="40" onclick="sendEmoji('sad')"/>
+			<span class="label label-default" >SAD</span>
+			<img src="img/smile.png" alt="SMILE" height="40" width="40" onclick="sendEmoji('smile')"/>
+			<span class="label label-default" >SMILE</span>
+			<img src="img/joy.png" alt="JOY" height="40" width="40" onclick="sendEmoji('joy')"/>
+			<span class="label label-default" >JOY</span>
+			<img src="img/angry.png" alt="ANGRY" height="40" width="40" onclick="sendEmoji('angry')"/>
+			<span class="label label-default" >ANGRY</span>
+			<img src="img/heart.png" alt="HEART" height="40" width="40" onclick="sendEmoji('heart')"/>
+			<span class="label label-default" >HEART</span>	
+			<img src="img/crying.png" alt="CRYING" height="40" width="40" onclick="sendEmoji('crying')"/>
+			<span class="label label-default" >CRYING</span>
 			
 		</div>
 		<div class="msg input-group">
