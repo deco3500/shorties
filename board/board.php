@@ -96,10 +96,12 @@ function myTimer() {
       <br>
       <br>
       <div class="emoji">
-        <img src="img/lol.png" alt="lol" width="40" height="40"/>LOL
-        <img src="img/omg.png" alt="omg" width="40" height="40"/>OMG
-        <img src="img/wtf.png" alt="wtf" width="40" height="40"/>WTF
-        <img src="img/yas.png" alt="yas" width="40" height="40"/>YAS
+        <img src="img/sad.png" alt="sad" width="40" height="40"/>SAD
+        <img src="img/smile.png" alt="smile" width="40" height="40"/>SMILE
+        <img src="img/joy.png" alt="joy" width="40" height="40"/>JOY
+        <img src="img/angry.png" alt="angry" width="40" height="40"/>ANGRY
+        <img src="img/heart.png" alt="heart" width="40" height="40"/>HEART
+        <img src="img/crying.png" alt="crying" width="40" height="40"/>CRYING
       </div>
 
       <br>
@@ -113,31 +115,39 @@ function myTimer() {
       <h1>Your Thoughts</h1>
       <br>
       <p>Many messages will appear from users using the app</p>
-              <img src="img/lol.png" alt="lol" width="40" height="40"/>LOL
-        <img src="img/omg.png" alt="omg" width="40" height="40"/>OMG
-        <img src="img/wtf.png" alt="wtf" width="40" height="40"/>WTF
-        <img src="img/yas.png" alt="yas" width="40" height="40"/>YAS
+        <img src="img/sad.png" alt="sad" width="40" height="40"/>SAD
+        <img src="img/smile.png" alt="smile" width="40" height="40"/>SMILE
+        <img src="img/joy.png" alt="joy" width="40" height="40"/>JOY
+        <img src="img/angry.png" alt="angry" width="40" height="40"/>ANGRY
+        <img src="img/heart.png" alt="heart" width="40" height="40"/>HEART
+        <img src="img/crying.png" alt="crying" width="40" height="40"/>CRYING
       <br>
       <br>
       <p>Many messages will appear from users using the app</p>
-              <img src="img/lol.png" alt="lol" width="40" height="40"/>LOL
-        <img src="img/omg.png" alt="omg" width="40" height="40"/>OMG
-        <img src="img/wtf.png" alt="wtf" width="40" height="40"/>WTF
-        <img src="img/yas.png" alt="yas" width="40" height="40"/>YAS
+        <img src="img/sad.png" alt="sad" width="40" height="40"/>SAD
+        <img src="img/smile.png" alt="smile" width="40" height="40"/>SMILE
+        <img src="img/joy.png" alt="joy" width="40" height="40"/>JOY
+        <img src="img/angry.png" alt="angry" width="40" height="40"/>ANGRY
+        <img src="img/heart.png" alt="heart" width="40" height="40"/>HEART
+        <img src="img/crying.png" alt="crying" width="40" height="40"/>CRYING
       <br>
       <br>
       <p>Many messages will appear from users using the app</p>
-              <img src="img/lol.png" alt="lol" width="40" height="40"/>LOL
-        <img src="img/omg.png" alt="omg" width="40" height="40"/>OMG
-        <img src="img/wtf.png" alt="wtf" width="40" height="40"/>WTF
-        <img src="img/yas.png" alt="yas" width="40" height="40"/>YAS
+        <img src="img/sad.png" alt="sad" width="40" height="40"/>SAD
+        <img src="img/smile.png" alt="smile" width="40" height="40"/>SMILE
+        <img src="img/joy.png" alt="joy" width="40" height="40"/>JOY
+        <img src="img/angry.png" alt="angry" width="40" height="40"/>ANGRY
+        <img src="img/heart.png" alt="heart" width="40" height="40"/>HEART
+        <img src="img/crying.png" alt="crying" width="40" height="40"/>CRYING
       <br>
       <br>
       <p>Many messages will appear from users using the app</p>
-            <img src="img/lol.png" alt="lol" width="40" height="40"/>LOL
-        <img src="img/omg.png" alt="omg" width="40" height="40"/>OMG
-        <img src="img/wtf.png" alt="wtf" width="40" height="40"/>WTF
-        <img src="img/yas.png" alt="yas" width="40" height="40"/>YAS
+        <img src="img/sad.png" alt="sad" width="40" height="40"/>SAD
+        <img src="img/smile.png" alt="smile" width="40" height="40"/>SMILE
+        <img src="img/joy.png" alt="joy" width="40" height="40"/>JOY
+        <img src="img/angry.png" alt="angry" width="40" height="40"/>ANGRY
+        <img src="img/heart.png" alt="heart" width="40" height="40"/>HEART
+        <img src="img/crying.png" alt="crying" width="40" height="40"/>CRYING
 
   </div>
 </div>
