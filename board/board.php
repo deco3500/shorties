@@ -50,7 +50,7 @@ function myTimer() {
 <div class="container">
   <div class="row">
   
-    <div class="col-lg-6" style="background-color: none; border-right: 2px solid #FF918E" ;>
+    <div class="col-lg-6" style="background-color: none; border-right: 2px solid #000080">
 
       <h1>News</h1>
       <br>
@@ -151,8 +151,6 @@ function myTimer() {
 
   </div>
 </div>
-
-
 
 <!-- Footer -->
 <footer class="container-fluid bg-4 text-center">
