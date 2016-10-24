@@ -56,6 +56,7 @@ function DisplayLocation(geoLocation){
 	});	
 }
 
+/*
 function goToPreviousLocation(){
 	$( "#loadPage" ).load("preLocation.php");
 	$(".header_title").html('<img id="bt_back" src="img/back.png" onclick="ChangeFragment(this)" alt="Back">Previous Location');
@@ -75,40 +76,69 @@ function goToViewMsgs(place){
 	$( "#loadPage" ).load("yourthoughts_view.php");
 	$(".header_title").html('<img id="bt_back" src="img/back.png" onclick="ChangeFragment(this)" alt="Back">Local News Views Only');
 }
-
+*/
 
 function ChangeFragment(Event){
 	$("#loadPage" ).empty();
 	switch(Event.id){
 		case "bt_news":
 			$("#loadPage" ).load("news.php");
-			$(".header_title").html('<img id="bt_back" src="img/back.png" onclick="ChangeFragment(this)" alt="Back">Local News');
+			$("header table tr").html('<td><img id="bt_back" src="img/back.png" onclick="ChangeFragment(this)" alt="Back"></td><td><div class="header"><nav class="header_title">Local News</nav></div></td>');
 			$('#bt_back').css('display','block');
 			break;
 		case "bt_yourThought":
 			$("#loadPage" ).load("yourthoughts.php");
-			$(".header_title").html('<img id="bt_back" src="img/back.png" onclick="ChangeFragment(this)" alt="Back">Your Thoughts');
+			$("header table tr").html('<td><img id="bt_back" src="img/back.png" onclick="ChangeFragment(this)" alt="Back"></td><td><div class="header"><nav class="header_title">Your Thoughts</nav></div></td>');
 			$('#bt_back').css('display','block');
 			break;
 		case "bt_qr":
 			$("#loadPage" ).load("qr.php");
-			$(".header_title").html('<img id="bt_back" src="img/back.png" onclick="ChangeFragment(this)" alt="Back">Scan QR Code');
+			$("header table tr").html('<td><img id="bt_back" src="img/back.png" onclick="ChangeFragment(this)" alt="Back"></td><td><div class="header"><nav class="header_title">Scan QR Code</nav></div></td>');
 			$('#bt_back').css('display','block');
 			break;
 		case "bt_back":
 			$( "#loadPage" ).load("homepage.php");
-			$(".header_title").html("Notice Me");
+			$("header table tr").html('<td><img id="bt_back" src="img/back.png" onclick="ChangeFragment(this)" alt="Back"></td><td><div class="header"><nav class="header_title">Notice Me!</nav></div></td>');
 			break;
 	}
 
 }
 
+function KeepFragment(Event){
+	$("#loadPage" ).empty();
+	switch(Event){
+		case "bt_news":
+			alert("Yes -> bt_news");
+			$("#loadPage" ).load("news.php");
+			$("header table tr").html('<td><img id="bt_back" src="img/back.png" onclick="ChangeFragment(this)" alt="Back"></td><td><div class="header"><nav class="header_title">Local News</nav></div></td>');
+			$('#bt_back').css('display','block');
+			break;
+		case "bt_yourThought":
+			$("#loadPage" ).load("yourthoughts.php");
+			$("header table tr").html('<td><img id="bt_back" src="img/back.png" onclick="ChangeFragment(this)" alt="Back"></td><td><div class="header"><nav class="header_title">Your Thoughts</nav></div></td>');
+			$('#bt_back').css('display','block');
+			break;
+		case "bt_qr":
+			$("#loadPage" ).load("qr.php");
+			$("header table tr").html('<td><img id="bt_back" src="img/back.png" onclick="ChangeFragment(this)" alt="Back"></td><td><div class="header"><nav class="header_title">Scan QR Code</nav></div></td>');
+			$('#bt_back').css('display','block');
+			break;
+		case "bt_back":
+			$( "#loadPage" ).load("homepage.php");
+			$("header table tr").html('<td><img id="bt_back" src="img/back.png" onclick="ChangeFragment(this)" alt="Back"></td><td><div class="header"><nav class="header_title">Notice Me!</nav></div></td>');
+			break;
+	}
+
+}
+
+
 $( document ).ready(function() {
-		/*
-			Menu
-		*/
-		$( "#loadPage" ).load("homepage.php");
-		
+		if(window.location.hash.replace("#", "")== ""){
+				$( "#loadPage" ).load("homepage.php");	
+			}else{
+				KeepFragment(window.location.hash.replace("#", ""));
+			}
+			
 		/*
 			Location
 		*/

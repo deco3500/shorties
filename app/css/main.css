@@ -10,10 +10,9 @@
 #bt_back{
 	cursor: pointer;
 	height: auto;
-	width: 8%;
-	left: 1%;
-	position: fixed;
 }
+
+
 
 .btn {
 	font-family: 'Roboto';
@@ -35,6 +34,11 @@
 		margin-bottom: 15%;
 	}
 */
+#bt_back{
+	cursor: pointer;
+	height: auto;
+	width: 10%;
+}
 }
 @media(min-width:320px) {
 /*
@@ -43,6 +47,11 @@
 		margin-bottom: 20%;
 	}
 */
+#bt_back{
+	cursor: pointer;
+	height: auto;
+	width: 15%;
+}
 
 }
 

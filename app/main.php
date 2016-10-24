@@ -31,9 +31,18 @@
   
   <body>
 	  <header>
-		<div class="header">
-		    <p class="header_title">Notice Me!</p>
-		</div>
+		  <table>
+			  <tr>
+				  <td>
+				<img id="bt_back" src="img/back.png" onclick="ChangeFragment(this)" alt="Back">
+				  </td>
+				  <td>
+				<div class="header">
+				    <nav class="header_title">Notice Me!</nav>
+				</div>
+				  </td>
+			  </tr>
+		  </table>
 	    <div id="extraInfo">
 			<p id="get_location"></p>
 	  	</div>
