@@ -56,7 +56,7 @@ function DisplayLocation(geoLocation){
 	});	
 }
 
-/*
+
 function goToPreviousLocation(){
 	$( "#loadPage" ).load("preLocation.php");
 	$(".header_title").html('<img id="bt_back" src="img/back.png" onclick="ChangeFragment(this)" alt="Back">Previous Location');
@@ -76,7 +76,6 @@ function goToViewMsgs(place){
 	$( "#loadPage" ).load("yourthoughts_view.php");
 	$(".header_title").html('<img id="bt_back" src="img/back.png" onclick="ChangeFragment(this)" alt="Back">Local News Views Only');
 }
-*/
 
 function ChangeFragment(Event){
 	$("#loadPage" ).empty();
