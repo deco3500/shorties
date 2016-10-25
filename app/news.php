@@ -1,33 +1,11 @@
 <script>
 	if($('#get_location').text() == "You are out of area"){
-		goToPreviousLocation();//main.js
+			goToPreviousLocation();//main.js
 	}
 </script>
 <div class="load_continer">
 	<div id="media">
-		<div class="news">
-			<?php
-				$servername = "localhost";
-				$username = "root";
-				$password = "root";
-				$dbname = "NoticeMe";
-				/*
-				$username = "sivivis";
-				$password = "HKtmDmE8F54b";
-				$dbname = "sivivis_NoticeMe";*/
-				$conn = new mysqli($servername, $username, $password, $dbname);
-				$sql = "SELECT * FROM News WHERE LocID = 1";
-				$newslink = $conn->query($sql);
-				$row = $newslink->fetch_assoc();   
-			    echo(
-					'<h2><a href="'.$row['url'].'">'.str_replace("[###]","'",$row['title']).'</a></h2>'
-					//Author & Date
-					.'<p>&nbsp;&nbsp;&nbsp;&nbsp;'.$row['news_date'].'</p>'
-					.'<p><img src="'.$row['img'].'"alt="news_image"/></p>'
-					.'<p>'.str_replace("[###]","'",$row['content']).'</p>'
-			    );  
-			 ?>
-			 </div>
+		<div class="news"></div>
 		<div class="comments">
 			<ul class="msgList"></ul>
 		</div>
@@ -36,17 +14,17 @@
 		<div class="poll form-group hvr-hang">
 				
 			<img src="img/sad.png" alt="SAD" height="40" width="40" onclick="sendEmoji('sad')"/>
-			<span class="label label-default" >SAD</span>
+			<span class="label label-default" onclick="sendEmoji('sad')">SAD</span>
 			<img src="img/smile.png" alt="SMILE" height="40" width="40" onclick="sendEmoji('smile')"/>
-			<span class="label label-default" >SMILE</span>
+			<span class="label label-default" onclick="sendEmoji('sad')">SMILE</span>
 			<img src="img/joy.png" alt="JOY" height="40" width="40" onclick="sendEmoji('joy')"/>
-			<span class="label label-default" >JOY</span>
+			<span class="label label-default" onclick="sendEmoji('sad')">JOY</span>
 			<img src="img/angry.png" alt="ANGRY" height="40" width="40" onclick="sendEmoji('angry')"/>
-			<span class="label label-default" >ANGRY</span>
+			<span class="label label-default" onclick="sendEmoji('sad')">ANGRY</span>
 			<img src="img/heart.png" alt="HEART" height="40" width="40" onclick="sendEmoji('heart')"/>
-			<span class="label label-default" >HEART</span>	
+			<span class="label label-default" onclick="sendEmoji('sad')">HEART</span>	
 			<img src="img/crying.png" alt="CRYING" height="40" width="40" onclick="sendEmoji('crying')"/>
-			<span class="label label-default" >CRYING</span>
+			<span class="label label-default" onclick="sendEmoji('sad')">CRYING</span>
 			
 		</div>
 		<div class="msg input-group">

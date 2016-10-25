@@ -1,7 +1,3 @@
-function loadNewsFromScreen(){
-	
-}
-
 function intergrateMSG(msg){
 	if(document.cookie!=null){
 	var cookie = ((document.cookie.split(';'))[0]).split('=')[1];
@@ -53,7 +49,9 @@ function updateComments(){
 
 //For Text
 function save_n_SendHistory(msg){
-	if($('.msg textarea').val()!= ""){
+	var filter = "fuck you";
+	var msg_text = $('.msg textarea').val();
+	if(msg_text != "" && (msg_text.toLowerCase()).indexOf(filter)!== 0){
 		//Save
 		setCookie($('.msg textarea').val());
 		//Display

@@ -58,23 +58,27 @@ function DisplayLocation(geoLocation){
 
 
 function goToPreviousLocation(){
+	$( "#loadPage" ).empty();
 	$( "#loadPage" ).load("preLocation.php");
-	$(".header_title").html('<img id="bt_back" src="img/back.png" onclick="ChangeFragment(this)" alt="Back">Previous Location');
+	$("header table tr").html('<td><img id="bt_back" src="img/back.png" onclick="ChangeFragment(this)" alt="Back"></td><td><div class="header"><nav class="header_title prev">Previous Location</nav></div></td>');
 }
 
 function goToViewNews(place){
+	$( "#loadPage" ).empty();
 	$( "#loadPage" ).load("news_viewonly.php");
-	$(".header_title").html('<img id="bt_back" src="img/back.png" onclick="ChangeFragment(this)" alt="Back">Local News Views Only');
+	$("header table tr").html('<td><img id="bt_back" src="img/back.png" onclick="ChangeFragment(this)" alt="Back"></td><td><div class="header"><nav class="header_title viewOnly">Local News Views Only</nav></div></td>');
 }
 
 function goToPreviousLocation1(){
+	$( "#loadPage" ).empty();
 	$( "#loadPage" ).load("preLocation1.php");
-	$(".header_title").html('<img id="bt_back" src="img/back.png" onclick="ChangeFragment(this)" alt="Back">Previous Location');
+	$("header table tr").html('<td><img id="bt_back" src="img/back.png" onclick="ChangeFragment(this)" alt="Back"></td><td><div class="header"><nav class="header_title prev">Previous Location</nav></div></td>');
 }
 
 function goToViewMsgs(place){
+	$( "#loadPage" ).empty();
 	$( "#loadPage" ).load("yourthoughts_view.php");
-	$(".header_title").html('<img id="bt_back" src="img/back.png" onclick="ChangeFragment(this)" alt="Back">Local News Views Only');
+	$("header table tr").html('<td><img id="bt_back" src="img/back.png" onclick="ChangeFragment(this)" alt="Back"></td><td><div class="header"><nav class="header_title viewOnly">Local News Views only</nav></div></td>');
 }
 
 function ChangeFragment(Event){
@@ -87,7 +91,7 @@ function ChangeFragment(Event){
 			break;
 		case "bt_yourThought":
 			$("#loadPage" ).load("yourthoughts.php");
-			$("header table tr").html('<td><img id="bt_back" src="img/back.png" onclick="ChangeFragment(this)" alt="Back"></td><td><div class="header"><nav class="header_title">Your Thoughts</nav></div></td>');
+			$("header table tr").html('<td><img id="bt_back" src="img/back.png" onclick="ChangeFragment(this)" alt="Back"></td><td><div class="header"><nav class="header_title_thoughts">Your Thoughts</nav></div></td>');
 			$('#bt_back').css('display','block');
 			break;
 		case "bt_qr":
@@ -141,4 +145,10 @@ $( document ).ready(function() {
 			Location
 		*/
 		getGeoLocation();
+		$.ajax({
+				url:"getNews.php",  
+				success:function(data) {
+				$(".news").html(data);
+			}});
+		
 });

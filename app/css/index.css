@@ -38,6 +38,7 @@ header table{
 }
 
 .header_title {
+  text-align: center;
   font-family: 'Roboto';
   font-size:xx-large;
   font-weight: 400; 
@@ -75,13 +76,13 @@ header table{
 	}
 	
 	.header_title {
-	  margin-left: -80%;
+	  margin-left: -65%;
 	}	
 
 }
 
 @media(max-width:768px) {
 	.header_title {
-	  margin-left: -50%;
+	  margin-left: -55%;
 	}	
 }
