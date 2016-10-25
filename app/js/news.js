@@ -49,7 +49,7 @@ function updateComments(){
 
 //For Text
 function save_n_SendHistory(msg){
-	var filter = "fuck you";
+	var filter = "fuck";
 	var msg_text = $('.msg textarea').val();
 	if(msg_text != "" && (msg_text.toLowerCase()).indexOf(filter)!== 0){
 		//Save
