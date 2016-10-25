@@ -9,7 +9,10 @@ $servername = "localhost";
 $username = "root";
 $password = "root";
 $dbname = "NoticeMe";
-
+/*
+				$username = "sivivis";
+				$password = "HKtmDmE8F54b";
+				$dbname = "sivivis_NoticeMe";*/
 $conn = new mysqli($servername, $username, $password, $dbname);
 $sql = "UPDATE News SET "
 		."title = '".$title

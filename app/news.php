@@ -11,6 +11,10 @@
 				$username = "root";
 				$password = "root";
 				$dbname = "NoticeMe";
+				/*
+				$username = "sivivis";
+				$password = "HKtmDmE8F54b";
+				$dbname = "sivivis_NoticeMe";*/
 				$conn = new mysqli($servername, $username, $password, $dbname);
 				$sql = "SELECT * FROM News WHERE LocID = 1";
 				$newslink = $conn->query($sql);

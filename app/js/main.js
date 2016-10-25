@@ -108,7 +108,6 @@ function KeepFragment(Event){
 	$("#loadPage" ).empty();
 	switch(Event){
 		case "bt_news":
-			alert("Yes -> bt_news");
 			$("#loadPage" ).load("news.php");
 			$("header table tr").html('<td><img id="bt_back" src="img/back.png" onclick="ChangeFragment(this)" alt="Back"></td><td><div class="header"><nav class="header_title">Local News</nav></div></td>');
 			$('#bt_back').css('display','block');
