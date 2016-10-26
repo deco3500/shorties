@@ -1,6 +1,13 @@
 <script>
 	if($('#get_location').text() == "You are out of area"){
 			goToPreviousLocation();//main.js
+	}else{
+		$.ajax({
+				url:"getNews.php",  
+				success:function(data) {
+				$(".news").html(data);
+			}});
+
 	}
 </script>
 <div class="load_continer">
