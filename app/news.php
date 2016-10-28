@@ -23,15 +23,15 @@
 			<img src="img/sad.png" alt="SAD" height="40" width="40" onclick="sendEmoji('sad')"/>
 			<span class="label label-default" onclick="sendEmoji('sad')">SAD</span>
 			<img src="img/smile.png" alt="SMILE" height="40" width="40" onclick="sendEmoji('smile')"/>
-			<span class="label label-default" onclick="sendEmoji('sad')">SMILE</span>
+			<span class="label label-default" onclick="sendEmoji('smile')">SMILE</span>
 			<img src="img/joy.png" alt="JOY" height="40" width="40" onclick="sendEmoji('joy')"/>
-			<span class="label label-default" onclick="sendEmoji('sad')">JOY</span>
+			<span class="label label-default" onclick="sendEmoji('joy')">JOY</span>
 			<img src="img/angry.png" alt="ANGRY" height="40" width="40" onclick="sendEmoji('angry')"/>
-			<span class="label label-default" onclick="sendEmoji('sad')">ANGRY</span>
+			<span class="label label-default" onclick="sendEmoji('angry')">ANGRY</span>
 			<img src="img/heart.png" alt="HEART" height="40" width="40" onclick="sendEmoji('heart')"/>
-			<span class="label label-default" onclick="sendEmoji('sad')">HEART</span>	
+			<span class="label label-default" onclick="sendEmoji('heart')">HEART</span>	
 			<img src="img/crying.png" alt="CRYING" height="40" width="40" onclick="sendEmoji('crying')"/>
-			<span class="label label-default" onclick="sendEmoji('sad')">CRYING</span>
+			<span class="label label-default" onclick="sendEmoji('crying')">CRYING</span>
 			
 		</div>
 		<div class="msg input-group">
