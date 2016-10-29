@@ -2,6 +2,20 @@
 
 ##[Click here for Final Documentation](https://github.com/deco3500/shorties/blob/master/Readme_Final_Doc.pdf)
 
+##Promotional material
+
+###Video link here: (https://youtu.be/vvbxOZdCHOM)
+
+###Link to prototype:
+- Board: www.shortiesboard.tk - where all the news and interaction happens
+- App: www.shorties.tk - to interact with other people on the board using this app on your phone
+
+If the above does not work, below is the alternative link.
+- Board: http://192.185.87.20/~sivivis/board/board.php
+- User Side App: https://192.185.87.20/~sivivis/app/
+
+*Please read the Final Documentation for setup/how to use the prototype.
+
 ##Idea
 
 Problem space
