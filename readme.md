@@ -16,9 +16,11 @@ If the above does not work, below is the alternative link.
 
 *Please read the Final Documentation for setup/how to use the prototype.
 
-##Idea
+#Idea
 
-Problem space
+##[View proposal link!](https://github.com/deco3500/shorties/blob/master/shorties_proposal.pdf)
+
+##Problem space
 
 The product is a hybrid of current news, thoughts alongside with archived news, which is then displayed on an interative board using a mobile app. The project is to make a mundane day exciting where people can interact with other people whom which they've never met before. This will also help with socialising with other people or even just to pass the day.
 
@@ -32,7 +34,7 @@ At the same time, only the summary of the news will be shown. Some people  may l
 
 The principle of this idea is similar to Facebook. User only need to do a few clicks and posting short comments. However, the difference is this is all public. People who are arounded the board (or have used the board before) can interact with the board.
 
-Concept
+##Concept
 
 - interactive board
 - using two sections of the screen
@@ -45,13 +47,8 @@ Concept
 - help increasing people interaction with news
 - help reducing mundane daily activities 
 
-Team Shorties members:
+##Team Shorties members:
+- Hui Ting Ko
+- Yangyang Xu
+- Siv I Choun
 
-Hui Ting Ko
-
-Yangyang Xu
-
-Siv I Choun
-
-
-##[View proposal link!](https://github.com/deco3500/shorties/blob/master/shorties_proposal.pdf)
