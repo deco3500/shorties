@@ -1,5 +1,7 @@
 #Welcome to the Shorties Deco3500
 
+##[Click here for Final Documentation:]
+
 ##Idea
 
 Problem space
