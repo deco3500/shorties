@@ -40,4 +40,4 @@ Yangyang Xu
 Siv I Choun
 
 
-##[View proposal link!](https://drive.google.com/open?id=0B4xAEojb5POBbDdxXzVFYzd3ZGM)
+##[View proposal link!](https://github.com/deco3500/shorties/blob/master/shorties_proposal.pdf)
