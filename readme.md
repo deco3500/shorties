@@ -52,3 +52,7 @@ The principle of this idea is similar to Facebook. User only need to do a few cl
 - Yangyang Xu
 - Siv I Choun
 
+##Reference
+- https://emojiisland.com/pages/free-download-emoji-icons-png
+- https://www.iconfinder.com/icons/60816/ghost_icon#size=128
+- https://www.iconfinder.com/icons/70315/go_sms_icon#size=72
