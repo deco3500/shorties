@@ -5,6 +5,7 @@
 ##Promotional material
 
 ###Video link here: (https://youtu.be/vvbxOZdCHOM)
+###Facebook link here: (https://www.facebook.com/deco3500noticeme/?pnref=story)
 
 ###Link to prototype:
 - Board: www.shortiesboard.tk - where all the news and interaction happens
