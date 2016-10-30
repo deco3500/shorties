@@ -1,6 +1,6 @@
 #Welcome to the Shorties Deco3500
 
-##[Click here for Final Documentation](https://github.com/deco3500/shorties/blob/master/Readme_Final_Doc.pdf)
+##[Click here for Final Documentation](https://github.com/deco3500/shorties/blob/master/Final_Documentation.pdf)
 
 ##Promotional material
 
